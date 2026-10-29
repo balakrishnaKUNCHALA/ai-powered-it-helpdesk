@@ -21,18 +21,18 @@ Load the Gemini API key from an environment variable using a `.env` file. Do not
 ## Tools Used
 - Python
 - Streamlit
-- Google Gemini API
+- Google Gemini API (`google-genai`)
 - Pandas
 - python-dotenv
 - Visual Studio Code
 - GitHub
+- Streamlit Community Cloud
 
 ## Implementation Status
-The application has been tested locally. Ticket creation, dashboard display, ticket status updates, CSV export, and AI-generated troubleshooting suggestions have been tested.
+The application has been deployed to Streamlit Community Cloud and tested through the live web app. Ticket creation, dashboard statistics, ticket status updates, CSV export, and Gemini-generated troubleshooting suggestions have been tested successfully. Gemini API availability may vary temporarily.
 
 ## Future Enhancements
 - Database storage for persistent ticket records
 - User authentication and role-based access
 - Email notifications for ticket updates
-- Cloud deployment
 - Automated testing and improved error handling
